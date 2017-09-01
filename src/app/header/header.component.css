@@ -1,0 +1,56 @@
+#banner {
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+
+    background-image: url("/assets/img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    margin-bottom: 10px;
+    
+}
+#banner h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#navbar{
+    margin: 0;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 480px) {
+    #banner h1 {
+        font-size: 40px;
+        transition: 0.5s
+    }
+    #banner h2 {
+        font-size: 25px;
+        transition: 0.5s
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+    #banner h1 {
+        font-size: 90px;
+        transition: 0.5s
+    }
+    #banner h2 {
+        font-size: 40px;
+        transition: 0.5s
+    }
+
+}
