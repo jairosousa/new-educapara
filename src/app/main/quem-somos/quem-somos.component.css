@@ -1,0 +1,33 @@
+section:nth-child(odd){
+    background-color: #e2e2e2;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 20px 0 50px;
+}
+
+section .title{
+    display: inline-block;
+    margin: 10px auto 40px;
+    padding: 0 10px 5px;
+    border-bottom: 3px solid #222222;
+}
+
+#palestrantes .thumbnail img{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    #palestrantes .thumbnail{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #palestrantes .thumbnail h3{
+        font-size: 18px;
+    }
+}

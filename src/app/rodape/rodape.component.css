@@ -1,0 +1,27 @@
+footer{
+    background-color: #222222;
+    padding:20px;
+    color: white;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px auto;
+}
+.icon-social{
+    height: 40px;
+    width: 40px;
+    display: block;
+    background-size: contain;
+    margin: 5px 15px;
+}
+.icon-social.facebook{
+    background-image: url("/assets/img/facebook-logo.png");
+}
+.icon-social.twitter{
+    background-image: url("/assets/img/twitter-logo.png");
+}
+.icon-social.youtube{
+    background-image: url("/assets/img/youtube-logo.png");
+}

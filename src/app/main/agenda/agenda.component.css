@@ -1,11 +1,3 @@
-#sobre .content{
-    padding-top:20px;
-}
-
-section:nth-child(odd){
-    background-color: #e2e2e2;
-}
-
 section {
     box-sizing: border-box;
     padding: 20px 0 50px;
