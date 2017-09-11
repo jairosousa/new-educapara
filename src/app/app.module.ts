@@ -9,6 +9,7 @@ import { AgendaComponent } from "./main/agenda/agenda.component";
 import { QuemSomosComponent } from './main/quem-somos/quem-somos.component';
 import { ContatoComponent } from './main/contato/contato.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RodapeComponent } from './rodape/rodape.component';
     AgendaComponent,
     QuemSomosComponent,
     ContatoComponent,
-    RodapeComponent
+    RodapeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
